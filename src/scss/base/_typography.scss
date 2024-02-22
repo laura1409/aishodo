@@ -1,0 +1,90 @@
+h1 {
+  font-size: 2.074rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.5rem;
+
+  @include respond-to(desktop) {
+    font-size: 2.986rem;
+    line-height: 3.5rem;
+  }
+}
+h2 {
+  font-size: 1.8rem;
+  font-style: normal;
+  line-height: 2.3rem;
+  font-weight: normal;
+
+  @include respond-to(desktop) {
+    font-size: 2.488rem;
+    line-height: 3rem;
+  }
+}
+h3 {
+  font-size: 1.728rem;
+  font-style: normal;
+  line-height: 2rem;
+  font-weight: normal;
+
+  @include respond-to(desktop) {
+    font-size: 2.074rem;
+    line-height: 2.5rem;
+  }
+}
+h4 {
+  font-size: 1.44rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.75rem;
+
+  @include respond-to(desktop) {
+    font-size: 1.728rem;
+    line-height: 2rem;
+  }
+}
+h5 {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5rem;
+
+  @include respond-to(desktop) {
+    font-size: 1.44rem;
+    line-height: 1.75rem;
+  }
+}
+.subtitle {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5rem;
+
+  @include respond-to(desktop) {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+p {
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+.caption {
+  font-size: 0.833rem;
+  font-style: normal;
+  line-height: 1.125rem;
+  font-weight: normal;
+}
+.overline {
+  font-size: 0.688rem;
+  font-style: normal;
+  line-height: 0.938rem;
+  font-weight: normal;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}

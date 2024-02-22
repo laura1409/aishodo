@@ -1,0 +1,38 @@
+.button {
+  border-radius: 3.563rem;
+  border: none;
+  min-width: 10.125rem;
+  padding: 0.875em 1.75em;
+  text-align: center;
+
+  &--primary {
+    background-color: $color-primary-dark;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-primary-normal;
+      color: $color-primary-dark;
+    }
+  }
+
+  &--secondary {
+    background-color: $color-secondary-normal;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-secondary-dark;
+      color: $color-white;
+    }
+  }
+
+  &--outline {
+    background-color: $color-primary-light;
+    color: $color-primary-dark;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-primary-dark;
+      border: 1px solid $color-primary-dark;
+    }
+  }
+}

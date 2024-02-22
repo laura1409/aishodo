@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 5.25rem auto;
+  padding: 0 1rem;
+
+  &--primary {
+    padding: auto 6.594rem;
+  }
+
+  &--secondary {
+    padding: auto 5.313rem;
+  }
+
+  @include respond-to(desktop) {
+    margin: 3.375rem auto;
+    padding: 0 0.625rem;
+  }
+}
